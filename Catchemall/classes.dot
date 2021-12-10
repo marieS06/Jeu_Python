@@ -1,0 +1,7 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Case|x\ly\l|adjacentes(jeu)\l}", shape="record"];
+"1" [label="{Creature|nom\lnom\lposition\lposition : NoneType\l|choisirCible(jeu)\l}", shape="record"];
+"2" [label="{Jeu|current_c_index : int\lcurrent_creature\llisteDesCases : dict\llisteDesCreatures : list\ltaille\ltour\lwinner : NoneType\l|deplacer(case)\lestOccupee(case)\lgenerateCases(num_rows, num_cols)\lgenerateCreatures()\lrandomPos()\l}", shape="record"];
+}
